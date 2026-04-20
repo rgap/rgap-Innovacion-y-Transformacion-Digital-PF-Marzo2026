@@ -1,0 +1,4 @@
+# Ignore macos stuff
+.DS_Store
+# Ignore windows stuff
+Thumbs.db

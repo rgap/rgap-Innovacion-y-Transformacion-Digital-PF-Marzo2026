@@ -1,0 +1,9 @@
+# **Introducción**
+
+En el presente documento, se analiza el caso de estudio de **\[nombre de la organización\]**, que se desenvuelve en **\[rubro o sector\]** y que actualmente presenta **\[situación actual o reto principal\]**. En este marco, se desarrolla la información general del caso de estudio, considerando la descripción general de la organización, su contexto actual, sus segmentos de clientes principales y sus canales de atención.
+
+Para comprender mejor este caso, en primer lugar se examina el proceso de negocio en estudio actual, describiendo **\[cómo funciona actualmente el proceso\]**, así como los actores en el proceso y las personas involucradas en el proceso. De esta manera, se identifican los problemas, oportunidades o necesidades que se manifiestan en el proceso analizado, tomando en cuenta **\[hallazgos del diagnóstico\]** y el nivel de madurez digital actual.
+
+A partir de lo observado, se plantean las posibles innovaciones propuestas que respondan a los problemas, oportunidades o necesidades identificadas. Asimismo, se formulan las propuestas de valor por persona involucrada y se desarrolla una propuesta inicial de transformación digital, apoyada en las tecnologías clave propuestas y selección inicial, las cuales podrían **\[mejora esperada en el proceso\]**, **\[mejora esperada en la experiencia de los involucrados\]** o **\[impacto esperado en la organización\]**.
+
+Finalmente, se presenta el alcance inicial del proyecto, precisando **\[aspectos incluidos\]**, **\[elementos priorizados en esta etapa\]** y **\[aspectos fuera del alcance inicial\]**. Con ello, se orienta la propuesta general hacia **\[objetivo principal\]**, de modo que el documento no solo describa la situación actual, sino que también trace una primera ruta de innovación y transformación digital para **\[nombre de la organización\]**.
