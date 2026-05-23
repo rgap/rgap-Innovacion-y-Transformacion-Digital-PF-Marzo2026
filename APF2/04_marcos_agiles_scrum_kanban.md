@@ -20,7 +20,7 @@ Cada integrante asume un rol de Scrum definido para la ejecución de los Sprints
 
 ### **4.2.1. Eventos**
 
-Los eventos Scrum aplican en cada Sprint de desarrollo (Ciclos 3 y 4). La columna de aplicación describe cómo se ejecutarán en el primer Sprint de desarrollo (Ciclo 3, MVP v1.0).
+Los eventos Scrum se aplican en cada Sprint de desarrollo (Ciclos 3 y 4). La columna de aplicación describe cómo se ejecutarán en el primer Sprint de desarrollo (Ciclo 3, MVP v1.0).
 
 | Evento                   | Descripción general                                                        | Aplicación en el Sprint 1 de desarrollo (Ciclo 3)                                                                                                                                                                  |
 | :----------------------- | :------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

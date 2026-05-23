@@ -257,33 +257,14 @@ _Esta etapa se integra con la fase de Construir (Build) del ciclo Lean Startup. 
 
 ### **2.5.1. Wireframes de baja fidelidad**
 
-Los wireframes describen la disposición visual de los elementos en cada pantalla clave, sin aplicar estilos ni colores. El objetivo es validar la estructura y jerarquía de la información antes de construir el sistema real.
+Los wireframes describen la disposición visual de los elementos en cada pantalla clave, sin aplicar estilos ni colores. El objetivo es validar la estructura y jerarquía de la información antes de construir el sistema real. El prototipo interactivo se encuentra publicado en [https://proud-silk-16433046.figma.site/](https://proud-silk-16433046.figma.site/)
 
 ---
 
 **Wireframe 1: Dashboard del Encargado de Ventas (pantalla de inicio)**
 
 ```text
-┌─────────────────────────────────────────────────────────┐
-│ Sistema Coolbox B2B [Diego ▾] [🔔 3] [?] │
-├───────────────┬─────────────────────────────────────────┤
-│ │ │
-│ MENÚ │ ALERTAS DE RECOMPRA ACTIVAS │
-│ │ ┌──────────┬────────────┬────────────┐ │
-│ 🏠 Dashboard │ │ 🔴 URGENTE│ 🟡 PRÓXIMO │ 🟢 SEGUIM.│ │
-│ 👥 Clientes │ │ 2 │ 5 │ 12 │ │
-│ 📊 Pipeline │ └──────────┴────────────┴────────────┘ │
-│ ✅ Tareas │ │
-│ 📈 Reportes │ ┌─────────────────────────────────────┐│
-│ │ │ 🔴 Empresa ABC – vence hoy ││
-│ │ │ Laptops HP (x10) · S/. 45,000 ││
-│ │ │ [Ver ficha] [Posponer] ││
-│ │ ├─────────────────────────────────────┤│
-│ │ │ 🔴 Tech Solutions SAC – vence hoy ││
-│ │ │ Cámaras Hikvision (x5) · S/8,500 ││
-│ │ │ [Ver ficha] [Posponer] ││
-│ │ └─────────────────────────────────────┘│
-└───────────────┴─────────────────────────────────────────┘
+[Captura(s) del wireframe 1]
 ```
 
 ---
@@ -291,26 +272,7 @@ Los wireframes describen la disposición visual de los elementos en cada pantall
 **Wireframe 2: Ficha de alerta del cliente**
 
 ```text
-┌─────────────────────────────────────────────────────────┐
-│ ← Volver al Dashboard │
-│ │
-│ EMPRESA ABC S.A.C. RUC: 20XXXXXXX │
-│ Contacto: Juan Quispe | 📞 987-XXX-XXX │
-│ Encargado asignado: Diego │
-├─────────────────────────────────────────────────────────┤
-│ ÚLTIMA COMPRA │
-│ Producto: Laptops HP EliteBook 840 (x10 unidades) │
-│ Monto: S/. 45,000 │
-│ Fecha: 14/02/2026 │
-│ Ciclo de recompra: 90 días [Editar] │
-│ Fecha de alerta: 15/05/2026 ← HOY │
-├─────────────────────────────────────────────────────────┤
-│ NOTAS DEL ENCARGADO │
-│ "Empresa de contabilidad. Renuevan equipos por área. │
-│ Próximamente área de RRHH podría necesitar tablets." │
-├─────────────────────────────────────────────────────────┤
-│ [✅ Registrar contacto] [⏰ Posponer 3 días] [✖ Sin oportunidad] │
-└─────────────────────────────────────────────────────────┘
+[Captura(s) del wireframe 2]
 ```
 
 ---
@@ -318,25 +280,7 @@ Los wireframes describen la disposición visual de los elementos en cada pantall
 **Wireframe 3: Modal de registro de contacto**
 
 ```text
-┌─────────────────────────────────────────┐
-│ REGISTRAR CONTACTO: Empresa ABC │
-│ │
-│ Resultado: │
-│ ◉ Interesado en recompra │
-│ ○ No interesado actualmente │
-│ ○ No contestó │
-│ │
-│ Notas del contacto: │
-│ ┌─────────────────────────────────┐ │
-│ │ Ej.: "Pidió cotización de │ │
-│ │ tablets para junio" │ │
-│ └─────────────────────────────────┘ │
-│ │
-│ Próximo seguimiento (auto: +90 días): │
-│ 📅 13/08/2026 [Editar fecha] │
-│ │
-│ [Guardar y cerrar] [Cancelar] │
-└─────────────────────────────────────────┘
+[Captura(s) del wireframe 3]
 ```
 
 ## **2.6. Testear**
