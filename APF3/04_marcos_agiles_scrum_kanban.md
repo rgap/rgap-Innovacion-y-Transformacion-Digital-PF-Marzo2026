@@ -8,13 +8,13 @@ Scrum provee la estructura temporal mediante Sprints, los roles y los eventos de
 
 Cada integrante asume un rol de Scrum definido para la ejecución de los Sprints. La siguiente tabla describe las responsabilidades de cada uno durante el desarrollo del MVP v1.0.
 
-| Rol Scrum            | Persona        | Separación de responsabilidades (separation of concerns)                     |
-| :------------------- | :------------- | :--------------------------------------------------------------------------- |
-| **Product Owner**    | Rel Guzmán     | Define y prioriza las tareas del Sprint. Acepta los entregables al final.    |
-| **Scrum Master**     | Carlos Mendoza | Facilita las reuniones. Elimina bloqueos del equipo.                         |
-| **Development Team** | María Torres   | Diseño UX/UI del sistema y soporte en la implementación de vistas.           |
-| **Development Team** | Luis Ramírez   | Desarrollo técnico del sistema: backend, base de datos y lógica de alertas.  |
-| **Development Team** | Sofía Paredes  | Verificación de criterios de aceptación, testing y carga de datos de prueba. |
+| Rol Scrum            | Persona        | Separación de responsabilidades (separation of concerns)                          |
+| :------------------- | :------------- | :-------------------------------------------------------------------------------- |
+| **Product Owner**    | Rel Guzmán     | Define y prioriza las tareas del Sprint. Acepta los entregables al final.         |
+| **Scrum Master**     | Carlos Mendoza | Facilita las reuniones. Elimina bloqueos del equipo.                              |
+| **Development Team** | María Torres   | Diseño UX/UI del sistema, frontend y soporte en la implementación de vistas.      |
+| **Development Team** | Luis Ramírez   | Desarrollo técnico del sistema: frontend, backend, base de datos y lógica.        |
+| **Development Team** | Sofía Paredes  | Verificación de criterios de aceptación, testing, QA, y carga de datos de prueba. |
 
 ## **4.2. Eventos y artefactos de Scrum**
 
@@ -52,62 +52,70 @@ El **MVP v1.0** es una versión simple del sistema de seguimiento post-venta B2B
 
 **Resultado esperado:** Al final de los 4 Sprints debe existir una versión básica donde se puedan registrar clientes, ver clientes existentes y visualizar alertas de recompra.
 
-El **registro de contactos no se incluye en esta versión**. Esa funcionalidad queda planificada para el MVP v2.0 o para un Sprint posterior al cierre del MVP v1.0.
-
 ## **4.3. Tablero Kanban de los Sprints**
 
-El tablero Kanban gestiona el flujo diario de tareas dentro de cada Sprint de desarrollo. Cada tarea avanza de izquierda a derecha por las columnas, con límites WIP que impiden acumular trabajo en progreso y hacen visibles los bloqueos el mismo día en que ocurren (Hammarberg & Sundén, 2014):
+El tablero Kanban gestiona el flujo diario de tareas dentro de cada Sprint de desarrollo. Se encuentra publicado en [https://github.com/users/rgap/projects/24/views/2](https://github.com/rgap/Coolbox-B2B-WebApp)
+
+Cada tarea avanza de izquierda a derecha por las columnas, con límites WIP que impiden acumular trabajo en progreso y hacen visibles los bloqueos el mismo día en que ocurren (Hammarberg & Sundén, 2014):
 
 | 📋 Product Backlog                                       | 🔍 To Do / Sprint Backlog (WIP ≤ 5)                          | ⚙️ In Progress (WIP ≤ 3)                           | 🧪 Testing (WIP ≤ 3)                                  | ✅ Done                                |
 | :------------------------------------------------------- | :----------------------------------------------------------- | :------------------------------------------------- | :---------------------------------------------------- | :------------------------------------- |
 | _(historias o tareas priorizadas, aún fuera del Sprint)_ | _(tareas seleccionadas para el Sprint, listas para iniciar)_ | _(tareas en desarrollo backend, frontend o UX/UI)_ | _(verificación de criterios de aceptación y pruebas)_ | _(tareas terminadas con DoD cumplida)_ |
 
-**Figura 4.1. Tablero Kanban del Sprint 1 en GitHub Projects**
+**Figura 1\. Tablero Kanban del Sprint 1 en GitHub Projects**
 
-![Captura del tablero Kanban del Sprint 1 con las columnas Product Backlog, To Do / Sprint Backlog, In Progress, Testing y Done](./imagenes/04_01_tablero_kanban_sprint1.png)
+**![][image1]**
 
-**Descripción:** La captura debe mostrar la vista tipo tablero de **GitHub Projects** configurada para el Sprint 1 de desarrollo del MVP v1.0. Deben verse las columnas del flujo de trabajo definidas para el proyecto, desde el Product Backlog hasta Done, junto con las tarjetas distribuidas según su estado. Esta imagen evidencia cómo Kanban se usa para visualizar el avance diario y detectar bloqueos dentro del Sprint.
+Esta imagen evidencia cómo Kanban se usa para visualizar el avance diario y detectar bloqueos dentro del Sprint.
 
-**Figura 4.2. Detalle de límites WIP y estados del tablero**
+**Figura 2\. Detalle de límites WIP y estados del tablero**
 
-![Captura del tablero Kanban con límites WIP visibles y tarjetas agrupadas por estado](./imagenes/04_02_limites_wip_tablero.png)
+**![][image2]**  
 
-**Descripción:** La captura debe enfocar la configuración operativa del tablero, mostrando los estados del flujo y los límites de trabajo en progreso: **To Do / Sprint Backlog (WIP ≤ 5)**, **In Progress (WIP ≤ 3)** y **Testing (WIP ≤ 3)**. Esta evidencia permite justificar que el equipo no solo registra tareas, sino que controla la cantidad de trabajo simultáneo para evitar acumulación y pérdida de foco.
+Esta evidencia permite justificar que el equipo no solo registra tareas, sino que controla la cantidad de trabajo simultáneo para evitar acumulación y pérdida de foco.
 
 **Definición de Done (DoD):** Una tarea alcanza la columna Done del tablero Kanban cuando está implementada en el sistema, verificada por Sofía contra sus criterios de aceptación y demostrada informalmente al equipo. Ninguna tarea puede avanzar a Done sin pasar por la columna de testing.
 
 ## **4.4. Historias de usuario y gestión de tareas**
 
-- Para cada Sprint de desarrollo se definen **historias de usuario** que describen las funcionalidades desde la perspectiva del usuario final, y **tareas técnicas** derivadas de cada historia que el equipo ejecuta durante el Sprint.
+Para cada Sprint de desarrollo se definen **historias de usuario** que describen las funcionalidades desde la perspectiva del usuario final, y **tareas técnicas** derivadas de cada historia que el equipo ejecuta durante el Sprint.
 
-**Figura 4.3. Historia de usuario registrada para el MVP v1.0**
+**Figura 3\. Historia de usuario registrada para el MVP v1.0**
 
-![Captura de una historia de usuario en GitHub Projects o GitHub Issues con criterios de aceptación](./imagenes/04_03_historia_usuario_mvp1.png)
+**![][image3]**
 
-**Descripción:** La captura debe mostrar una historia de usuario priorizada del Sprint, por ejemplo: _"Como encargado de ventas corporativas, quiero recibir una alerta automática cuando un cliente esté cerca de su fecha estimada de recompra, para identificar oportunamente una nueva oportunidad comercial"_. La tarjeta o issue debe incluir criterios de aceptación claros, como visualización de alerta, acceso a la ficha básica del cliente y consulta de la compra anterior asociada.
+La tarjeta o issue incluye criterios de aceptación claros, tareas técnicas, estimación de esfuerzo y prioridad.
 
-- Cada historia se descompone en tareas concretas estimadas y asignadas a un integrante del Development Team.
+Cada historia se descompone en tareas concretas estimadas y asignadas a un integrante del Development Team.
 
-**Figura 4.4. Descomposición de la historia en tareas técnicas**
+**Figura 4\. Descomposición de la historia en tareas técnicas**
 
-![Captura de las tareas técnicas derivadas de una historia de usuario y asignadas al equipo](./imagenes/04_04_tareas_tecnicas_historia.png)
+**![][image4]**  
 
-**Descripción:** La captura debe mostrar cómo una historia de usuario se divide en tareas ejecutables, estimadas y asignadas a integrantes del Development Team. Por ejemplo: diseño de la lista de alertas, creación de datos de prueba, implementación de la lógica de fechas, desarrollo de la ficha básica del cliente y validación de criterios de aceptación. Esta imagen conecta la necesidad del usuario con el trabajo concreto del Sprint.
+Las tareas técnicas conectan la necesidad del usuario con el trabajo concreto del Sprint.
 
-- Las historias de usuario y sus tareas se registran y gestionan en **GitHub Projects**, que permite organizar el Product Backlog, el Sprint Backlog y el tablero Kanban en un mismo espacio.
+Se agregan los miembros del equipo para asignar responsabilidades, distribuir tareas y dar seguimiento al avance de cada actividad durante el desarrollo del MVP.
 
-**Figura 4.5. Gestión integrada de historias y tareas en GitHub Projects**
+**Figura 5\. Miembros del equipo agregados en GitHub Projects y en el repositorio de Github**
 
-![Captura de GitHub Projects con historias de usuario, tareas técnicas, responsables y estados de avance](./imagenes/04_05_github_projects_historias_tareas.png)
+**![][image5]**  
 
-**Descripción:** La captura debe mostrar la vista general de **GitHub Projects** donde se gestionan conjuntamente el Product Backlog, el Sprint Backlog y el tablero Kanban. Deben apreciarse las tarjetas con responsables, estado, prioridad o Sprint asociado. Esta evidencia documenta que el equipo utiliza una herramienta centralizada para dar seguimiento a las historias de usuario y tareas durante la construcción del MVP.
+Con esto documentamos que el equipo fue incorporado dentro de la herramienta para facilitar la asignación de responsabilidades y la gestión de tareas del proyecto.
+
+Las tareas registradas se asignan a los miembros del equipo según su rol y responsabilidad dentro del Sprint.
+
+**Figura 6\. Asignación de tareas a los miembros del equipo en GitHub Projects**
+
+**![][image6]**  
+
+Con esto documentamos que las tareas del proyecto son distribuidas entre los integrantes del equipo, permitiendo una mejor organización y control durante la construcción del MVP. Los issues que no aparecen en el tablero fueron archivadas temporalmente para visualizar solo los issues que se deben trabajar en el sprint actual.
 
 ## **4.5. Gestión de tareas incompletas y nuevos Sprints**
 
 Si al finalizar un Sprint alguna tarea del Sprint Backlog no alcanzó el estado Done, se aplica el siguiente criterio:
 
-- **Tareas bloqueadas o incompletas:** se devuelven al Product Backlog con una nota del motivo. El Product Owner decide si las reincorpora al siguiente Sprint o las reprioritiza.
-- **Tareas parcialmente avanzadas:** se evalúan en la Sprint Retrospective. Si el avance es significativo y la tarea es crítica para el Sprint Goal, el Scrum Master puede proponer extender su ejecución al siguiente Sprint sin reiniciarla.
-- **Sprint Goal no alcanzado:** si el incremento del Sprint no cumple con el Sprint Goal, el equipo no lo declara como incremento válido. Se planifica un nuevo Sprint o se reprioriza el alcance antes de cerrar el MVP v1.0.
+* **Tareas bloqueadas o incompletas:** se devuelven al Product Backlog con una nota del motivo. El Product Owner decide si las reincorpora al siguiente Sprint o las reprioritiza.  
+* **Tareas parcialmente avanzadas:** se evalúan en la Sprint Retrospective. Si el avance es significativo y la tarea es crítica para el Sprint Goal, el Scrum Master puede proponer extender su ejecución al siguiente Sprint sin reiniciarla.  
+* **Sprint Goal no alcanzado:** si el incremento del Sprint no cumple con el Sprint Goal, el equipo no lo declara como incremento válido. Se planifica un nuevo Sprint o se reprioriza el alcance antes de cerrar el MVP v1.0.
 
 El equipo puede crear Sprints adicionales si el alcance mínimo del MVP v1.0 no queda cubierto dentro de los 4 Sprints planificados. Cada Sprint adicional sigue el mismo proceso: Planning → Daily Scrum → Review → Retrospective, con su propio Sprint Backlog y tablero Kanban.
