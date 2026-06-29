@@ -58,7 +58,7 @@ El tablero Kanban gestiona el flujo diario de tareas dentro de cada Sprint de de
 
 Cada tarea avanza de izquierda a derecha por las columnas, con límites WIP que impiden acumular trabajo en progreso y hacen visibles los bloqueos el mismo día en que ocurren (Hammarberg & Sundén, 2014):
 
-| 📋 Product Backlog                                       | 🔍 To Do / Sprint Backlog (WIP ≤ 5)                          | ⚙️ In Progress (WIP ≤ 3)                           | 🧪 Testing (WIP ≤ 3)                                  | ✅ Done                                |
+| 📋 Product Backlog                                       | 🔍 To Do (WIP ≤ 5)                                           | ⚙️ In Progress (WIP ≤ 3)                           | 🧪 Testing (WIP ≤ 3)                                  | ✅ Done                                |
 | :------------------------------------------------------- | :----------------------------------------------------------- | :------------------------------------------------- | :---------------------------------------------------- | :------------------------------------- |
 | _(historias o tareas priorizadas, aún fuera del Sprint)_ | _(tareas seleccionadas para el Sprint, listas para iniciar)_ | _(tareas en desarrollo backend, frontend o UX/UI)_ | _(verificación de criterios de aceptación y pruebas)_ | _(tareas terminadas con DoD cumplida)_ |
 
@@ -70,7 +70,7 @@ Esta imagen evidencia cómo Kanban se usa para visualizar el avance diario y det
 
 **Figura 2\. Detalle de límites WIP y estados del tablero**
 
-**![][image2]**  
+**![][image2]**
 
 Esta evidencia permite justificar que el equipo no solo registra tareas, sino que controla la cantidad de trabajo simultáneo para evitar acumulación y pérdida de foco.
 
@@ -90,7 +90,7 @@ Cada historia se descompone en tareas concretas estimadas y asignadas a un integ
 
 **Figura 4\. Descomposición de la historia en tareas técnicas**
 
-**![][image4]**  
+**![][image4]**
 
 Las tareas técnicas conectan la necesidad del usuario con el trabajo concreto del Sprint.
 
@@ -98,7 +98,7 @@ Se agregan los miembros del equipo para asignar responsabilidades, distribuir ta
 
 **Figura 5\. Miembros del equipo agregados en GitHub Projects y en el repositorio de Github**
 
-**![][image5]**  
+**![][image5]**
 
 Con esto documentamos que el equipo fue incorporado dentro de la herramienta para facilitar la asignación de responsabilidades y la gestión de tareas del proyecto.
 
@@ -106,7 +106,7 @@ Las tareas registradas se asignan a los miembros del equipo según su rol y resp
 
 **Figura 6\. Asignación de tareas a los miembros del equipo en GitHub Projects**
 
-**![][image6]**  
+**![][image6]**
 
 Con esto documentamos que las tareas del proyecto son distribuidas entre los integrantes del equipo, permitiendo una mejor organización y control durante la construcción del MVP. Los issues que no aparecen en el tablero fueron archivadas temporalmente para visualizar solo los issues que se deben trabajar en el sprint actual.
 
@@ -114,8 +114,8 @@ Con esto documentamos que las tareas del proyecto son distribuidas entre los int
 
 Si al finalizar un Sprint alguna tarea del Sprint Backlog no alcanzó el estado Done, se aplica el siguiente criterio:
 
-* **Tareas bloqueadas o incompletas:** se devuelven al Product Backlog con una nota del motivo. El Product Owner decide si las reincorpora al siguiente Sprint o las reprioritiza.  
-* **Tareas parcialmente avanzadas:** se evalúan en la Sprint Retrospective. Si el avance es significativo y la tarea es crítica para el Sprint Goal, el Scrum Master puede proponer extender su ejecución al siguiente Sprint sin reiniciarla.  
-* **Sprint Goal no alcanzado:** si el incremento del Sprint no cumple con el Sprint Goal, el equipo no lo declara como incremento válido. Se planifica un nuevo Sprint o se reprioriza el alcance antes de cerrar el MVP v1.0.
+- **Tareas bloqueadas o incompletas:** se devuelven al Product Backlog con una nota del motivo. El Product Owner decide si las reincorpora al siguiente Sprint o las reprioritiza.
+- **Tareas parcialmente avanzadas:** se evalúan en la Sprint Retrospective. Si el avance es significativo y la tarea es crítica para el Sprint Goal, el Scrum Master puede proponer extender su ejecución al siguiente Sprint sin reiniciarla.
+- **Sprint Goal no alcanzado:** si el incremento del Sprint no cumple con el Sprint Goal, el equipo no lo declara como incremento válido. Se planifica un nuevo Sprint o se reprioriza el alcance antes de cerrar el MVP v1.0.
 
 El equipo puede crear Sprints adicionales si el alcance mínimo del MVP v1.0 no queda cubierto dentro de los 4 Sprints planificados. Cada Sprint adicional sigue el mismo proceso: Planning → Daily Scrum → Review → Retrospective, con su propio Sprint Backlog y tablero Kanban.
